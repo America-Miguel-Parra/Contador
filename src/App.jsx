@@ -17,6 +17,26 @@ function App() {
     type="button" 
     className="btn btn-primary"
     >+1</button>
+
+
+<button
+    onClick={()=> {
+      setCounter(Counter -1);
+      console.log(Counter)
+    }} 
+    type="button" 
+    className="btn btn-warning"
+    >-1</button>
+
+
+<button
+    onClick={()=> {
+      setCounter(0);
+      console.log(0)
+    }} 
+    type="button" 
+    className="btn btn-danger"
+    >0</button>
   </div> 
   )
 
